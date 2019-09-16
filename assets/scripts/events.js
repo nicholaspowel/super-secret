@@ -12,6 +12,7 @@ const onHome = function (event) {
   event.preventDefault()
 
   $('#chart').hide()
+  $('#developer').hide()
   $('.img').show()
   $('.text').show()
 }
